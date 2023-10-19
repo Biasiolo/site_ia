@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    padding: 16px;
+    background-color: rgb(11, 26, 36);
+    color: rgb(41, 253, 147);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 16px; 
+    color: rgb(41, 253, 147);;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: rgb(41, 253, 147);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.topo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .topo, a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(41, 253, 147)
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden; /* Para evitar barras de rolagem horizontais */
+    background-color: rgb(11, 26, 36);
+}
+
+.banner, .container, .container p, #introducao .container, .container h2, .banner2, .banner2 img {
+    background-color: rgb(11, 26, 36);
+    color: rgb(41, 253, 147);
+    font-size: 20px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img, .banner2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(41, 253, 147);
+}
+
+.container p {
+    margin-bottom: 50px;
+    height: 10px;
+}
+
+#introducao .container {
+    background-color: rgb(11, 26, 36);
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner2 img {
+    margin-bottom: 20px;
+}
+
+.banner2 ul {
+    list-style: none;
+    max-width: 100%;
+    height: auto;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.banner2 ul li {
+    white-space: normal;
+    margin-bottom: 12px;
+}
+
+.banner2 p {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(41, 253, 147);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+section .container2 {
+    margin-bottom: 50px;
+}
+
+.container2 h2 {
+    font-size: 35px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 50%; 
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: left; 
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+input,
+textarea {
+    background-color: rgb(212, 252, 232);
+    border: none;
+}
+
+input,
+textarea {
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden; /* Para evitar barras de rolagem horizontais */
+    background-color: rgb(212, 252, 232);
+}
+
+form button {
+    background-color: rgb(11, 26, 36);
+    font-weight: 900;
+    text-align: center;
+    color: rgb(181, 255, 9);
+    cursor:pointer;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: greenyellow;
+    color:rgb(255, 0, 0)
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(2, 46, 46);
+}
+
+footer {
+    background-color: rgb(11, 26, 36);
+    color: rgb(212, 252, 232);
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+
+
+
